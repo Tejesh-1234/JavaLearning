@@ -2,6 +2,7 @@ package exe07072024;
 
 public class Lab002 {
     public static void main(String[] args) {
-        System.out.println("Tejesh");
-    }
-}
+        int a = 10;
+        System.out.println(++a + a++ + a++);
+        System.out.println(a);
+}}
